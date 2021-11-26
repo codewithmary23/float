@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li {
+  float: left;
+}
+
+img {
+  margin: 1rem;
+  float: left;
+}
+
+.active {
+  background-color: red;
+}
+
+p {
+  text-align: justify;
+  padding: 1rem;
+}
+
+h2 {
+  margin: 2rem 0 2rem 1rem;
+}
+
+.box {
+  padding: 3rem;
+  border: 2px solid #555;
+  background: blueviolet;
+  float: left;
+}
+
+.clear {
+  clear: left;
+}
+
+span {
+  float: left;
+  font-size: 400%;
+  font-family: algerian, courier;
+  width: 0.7em;
+  line-height: 80%;
+}
